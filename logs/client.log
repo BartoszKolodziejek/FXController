@@ -1,0 +1,174 @@
+2018-01-06 18:41:54.492  INFO 28023 --- [main] c.f.k.f.F.C.FxControllerApplication      : Starting FxControllerApplication on bartosz-UX303LNB with PID 28023 (started by bartosz in /home/bartosz/developers/FX Controller)
+2018-01-06 18:41:54.494  INFO 28023 --- [main] c.f.k.f.F.C.FxControllerApplication      : No active profile set, falling back to default profiles: default
+2018-01-06 18:41:54.781  INFO 28023 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6328d34a: startup date [Sat Jan 06 18:41:54 CET 2018]; root of context hierarchy
+2018-01-06 18:41:54.794 ERROR 28023 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+java.lang.NoClassDefFoundError: org/springframework/expression/ParserContext
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[na:1.8.0_151]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[na:1.8.0_151]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467) ~[na:1.8.0_151]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73) ~[na:1.8.0_151]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368) ~[na:1.8.0_151]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362) ~[na:1.8.0_151]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_151]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_151]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_151]
+	at org.springframework.context.expression.StandardBeanExpressionResolver.<init>(StandardBeanExpressionResolver.java:69) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.prepareBeanFactory(AbstractApplicationContext.java:630) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:518) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.forex.kolodziejek.fxcontroller.FX.Controller.FxControllerApplication.main(FxControllerApplication.java:10) [classes/:na]
+Caused by: java.lang.ClassNotFoundException: org.springframework.expression.ParserContext
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_151]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_151]
+	... 22 common frames omitted
+
+2018-01-06 18:41:54.795  INFO 28023 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6328d34a: startup date [Sat Jan 06 18:41:54 CET 2018]; root of context hierarchy
+2018-01-06 18:42:48.181  INFO 28475 --- [main] c.f.k.f.F.C.FxControllerApplication      : Starting FxControllerApplication on bartosz-UX303LNB with PID 28475 (started by bartosz in /home/bartosz/developers/FX Controller)
+2018-01-06 18:42:48.184  INFO 28475 --- [main] c.f.k.f.F.C.FxControllerApplication      : No active profile set, falling back to default profiles: default
+2018-01-06 18:42:48.433  INFO 28475 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6328d34a: startup date [Sat Jan 06 18:42:48 CET 2018]; root of context hierarchy
+2018-01-06 18:42:48.464 ERROR 28475 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+java.lang.NoClassDefFoundError: org/springframework/expression/ParserContext
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[na:1.8.0_151]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[na:1.8.0_151]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467) ~[na:1.8.0_151]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73) ~[na:1.8.0_151]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368) ~[na:1.8.0_151]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362) ~[na:1.8.0_151]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_151]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_151]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_151]
+	at org.springframework.context.expression.StandardBeanExpressionResolver.<init>(StandardBeanExpressionResolver.java:69) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.prepareBeanFactory(AbstractApplicationContext.java:630) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:518) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.forex.kolodziejek.fxcontroller.FX.Controller.FxControllerApplication.main(FxControllerApplication.java:10) [classes/:na]
+Caused by: java.lang.ClassNotFoundException: org.springframework.expression.ParserContext
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_151]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_151]
+	... 22 common frames omitted
+
+2018-01-06 18:42:48.467  INFO 28475 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6328d34a: startup date [Sat Jan 06 18:42:48 CET 2018]; root of context hierarchy
+2018-01-06 18:45:55.667  INFO 30210 --- [main] c.f.k.f.F.C.FxControllerApplication      : Starting FxControllerApplication on bartosz-UX303LNB with PID 30210 (started by bartosz in /home/bartosz/developers/FX Controller)
+2018-01-06 18:45:55.669  INFO 30210 --- [main] c.f.k.f.F.C.FxControllerApplication      : No active profile set, falling back to default profiles: default
+2018-01-06 18:45:55.883  INFO 30210 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6328d34a: startup date [Sat Jan 06 18:45:55 CET 2018]; root of context hierarchy
+2018-01-06 18:45:55.903 ERROR 30210 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+java.lang.NoClassDefFoundError: org/springframework/expression/ParserContext
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[na:1.8.0_151]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[na:1.8.0_151]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467) ~[na:1.8.0_151]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73) ~[na:1.8.0_151]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368) ~[na:1.8.0_151]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362) ~[na:1.8.0_151]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_151]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_151]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_151]
+	at org.springframework.context.expression.StandardBeanExpressionResolver.<init>(StandardBeanExpressionResolver.java:69) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.prepareBeanFactory(AbstractApplicationContext.java:630) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:518) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.forex.kolodziejek.fxcontroller.FX.Controller.FxControllerApplication.main(FxControllerApplication.java:10) [classes/:na]
+Caused by: java.lang.ClassNotFoundException: org.springframework.expression.ParserContext
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_151]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_151]
+	... 22 common frames omitted
+
+2018-01-06 18:45:55.905  INFO 30210 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6328d34a: startup date [Sat Jan 06 18:45:55 CET 2018]; root of context hierarchy
+2018-01-06 18:46:18.446  INFO 30436 --- [main] c.f.k.f.F.C.FxControllerApplication      : Starting FxControllerApplication on bartosz-UX303LNB with PID 30436 (started by bartosz in /home/bartosz/developers/FX Controller)
+2018-01-06 18:46:18.449  INFO 30436 --- [main] c.f.k.f.F.C.FxControllerApplication      : No active profile set, falling back to default profiles: default
+2018-01-06 18:46:18.711  INFO 30436 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6328d34a: startup date [Sat Jan 06 18:46:18 CET 2018]; root of context hierarchy
+2018-01-06 18:46:18.756 ERROR 30436 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+java.lang.NoClassDefFoundError: org/springframework/expression/ParserContext
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[na:1.8.0_151]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[na:1.8.0_151]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467) ~[na:1.8.0_151]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73) ~[na:1.8.0_151]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368) ~[na:1.8.0_151]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362) ~[na:1.8.0_151]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_151]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_151]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_151]
+	at org.springframework.context.expression.StandardBeanExpressionResolver.<init>(StandardBeanExpressionResolver.java:69) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.prepareBeanFactory(AbstractApplicationContext.java:630) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:518) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.forex.kolodziejek.fxcontroller.FX.Controller.FxControllerApplication.main(FxControllerApplication.java:10) [classes/:na]
+Caused by: java.lang.ClassNotFoundException: org.springframework.expression.ParserContext
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_151]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_151]
+	... 22 common frames omitted
+
+2018-01-06 18:46:18.758  INFO 30436 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6328d34a: startup date [Sat Jan 06 18:46:18 CET 2018]; root of context hierarchy
+2018-01-06 18:48:24.750  INFO 31552 --- [main] c.f.k.f.F.C.FxControllerApplication      : Starting FxControllerApplication on bartosz-UX303LNB with PID 31552 (started by bartosz in /home/bartosz/developers/FX Controller)
+2018-01-06 18:48:24.758  INFO 31552 --- [main] c.f.k.f.F.C.FxControllerApplication      : No active profile set, falling back to default profiles: default
+2018-01-06 18:48:25.076  INFO 31552 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f77e91b: startup date [Sat Jan 06 18:48:25 CET 2018]; root of context hierarchy
+2018-01-06 18:48:26.246  INFO 31552 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8100 (http)
+2018-01-06 18:48:26.256  INFO 31552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-06 18:48:26.257  INFO 31552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-01-06 18:48:26.331  INFO 31552 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-06 18:48:26.331  INFO 31552 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1259 ms
+2018-01-06 18:48:26.453  INFO 31552 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-06 18:48:26.457  INFO 31552 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-06 18:48:26.458  INFO 31552 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-06 18:48:26.458  INFO 31552 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-06 18:48:26.458  INFO 31552 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-06 18:48:26.715  INFO 31552 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f77e91b: startup date [Sat Jan 06 18:48:25 CET 2018]; root of context hierarchy
+2018-01-06 18:48:26.757  INFO 31552 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String com.forex.kolodziejek.fxcontroller.FX.Controller.RequestController.test()
+2018-01-06 18:48:26.762  INFO 31552 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-06 18:48:26.762  INFO 31552 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-06 18:48:26.785  INFO 31552 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-06 18:48:26.785  INFO 31552 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-06 18:48:26.811  INFO 31552 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-06 18:48:26.839  WARN 31552 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-01-06 18:48:27.266  INFO 31552 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-06 18:48:27.310  INFO 31552 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8100 (http)
+2018-01-06 18:48:27.317  INFO 31552 --- [main] c.f.k.f.F.C.FxControllerApplication      : Started FxControllerApplication in 2.821 seconds (JVM running for 3.476)
+2018-01-06 18:48:47.611  INFO 31552 --- [http-nio-8100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-06 18:48:47.611  INFO 31552 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-06 18:48:47.639  INFO 31552 --- [http-nio-8100-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2018-01-06 19:19:55.587  INFO 31552 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-01-06 19:19:55.588  INFO 31552 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f77e91b: startup date [Sat Jan 06 18:48:25 CET 2018]; root of context hierarchy
+2018-01-06 19:19:55.590  INFO 31552 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
