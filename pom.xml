@@ -25,6 +25,24 @@
 	</properties>
 
 	<dependencies>
+	
+
+<dependency>
+   <groupId>org.springframework.amqp</groupId>
+   <artifactId>spring-rabbit</artifactId>
+   <version>1.6.3.RELEASE</version>
+</dependency>
+	<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20171018</version>
+</dependency>
+	
+	<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.4</version>
+</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -45,6 +63,10 @@
     <version>2.5</version>
     <scope>provided</scope>
 </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-artemis</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
